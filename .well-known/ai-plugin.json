@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "http://n8n.srv822834.hstgr.cloud:8010/openapi.yaml"
+    "url": "https://sagarjaink.github.io/my-claude-gmail-tool/openapi.yaml"
   },
-  "logo_url": "http://n8n.srv822834.hstgr.cloud:8010/logo.png",
+  "logo_url": "https://sagarjaink.github.io/my-claude-gmail-tool/logo.png",
   "contact_email": "your-email@example.com",
-  "legal_info_url": "http://n8n.srv822834.hstgr.cloud:8010/legal"
+  "legal_info_url": "https://sagarjaink.github.io/my-claude-gmail-tool/legal"
 }
