@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "name_for_human": "Gmail Sender",
+  "name_for_model": "gmail_sender",
+  "description_for_human": "Send an email using your Gmail account",
+  "description_for_model": "Use this tool to send an email via Gmail. Provide the recipient's email, subject, and message body.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://n8n.srv822834.hstgr.cloud:8010/openapi.yaml"
+  },
+  "logo_url": "http://n8n.srv822834.hstgr.cloud:8010/logo.png",
+  "contact_email": "your-email@example.com",
+  "legal_info_url": "http://n8n.srv822834.hstgr.cloud:8010/legal"
+}
