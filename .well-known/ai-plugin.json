@@ -1,15 +1,14 @@
 {
-  "schema_version": "1.0",
-  "name_for_human": "Gmail Sender",
-  "name_for_model": "gmail_sender",
-  "description_for_human": "Send an email using your Gmail account",
-  "description_for_model": "Use this tool to send an email via Gmail. Provide the recipient's email, subject, and message body.",
+  "schema_version": "v1",
+  "name_for_human": "Gmail Sender (MCP)",
+  "name_for_model": "gmail_sender_mcp",
+  "description_for_model": "A tool to send an email using Gmail via an MCP server.",
   "auth": {
     "type": "none"
   },
   "api": {
-    "type": "openapi",
-    "url": "https://sagarjaink.github.io/my-claude-gmail-tool/openapi.yaml"
+    "type": "mcp_server",
+    "server_url": "https://n8n.srv822834.hstgr.cloud/mcp/ea3a5764-40ab-4ac1-a365-f7b157ee9955"
   },
   "logo_url": "https://sagarjaink.github.io/my-claude-gmail-tool/logo.png",
   "contact_email": "your-email@example.com",
